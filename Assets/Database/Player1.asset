@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df5b7d2242f64ebfb1ef0ec96c6e6e0a, type: 3}
+  m_Name: Player1
+  m_EditorClassIdentifier: 
+  startingHealth: 640
+  startingShield: 400
+  shieldRegenRate: 4
+  shieldRegenDelay: 1
+  shieldActivateThreshold: 0.3
+  gameDuration: 100
+  startingEnergy: 80
+  maximumEnergy: 400
+  gameProgressions:
+  - progressThreshold: 0
+    barColor: {r: 1, g: 1, b: 1, a: 1}
+    baseEnergyGainRate: 5
+    bonusEnergyGainRate: 10
+    minimumWordLength: 3
+    minimumBonusLength: 5
+    numberOfLetters: 8
+  - progressThreshold: 0.5
+    barColor: {r: 1, g: 0.73278683, b: 0.19339621, a: 1}
+    baseEnergyGainRate: 5
+    bonusEnergyGainRate: 30
+    minimumWordLength: 3
+    minimumBonusLength: 5
+    numberOfLetters: 7
+  - progressThreshold: 0.8
+    barColor: {r: 1, g: 0.19215685, b: 0.19215685, a: 1}
+    baseEnergyGainRate: 5
+    bonusEnergyGainRate: 60
+    minimumWordLength: 4
+    minimumBonusLength: 5
+    numberOfLetters: 6
